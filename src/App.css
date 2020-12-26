@@ -1,3 +1,6 @@
+body{
+  background-image: linear-gradient(to top, #c64228, #cc6212, #cb8100, #c29f00, #b2bc00, #9fcc3a, #8ada60, #75e785, #72e9aa, #7fe8c6, #9ae6d8, #bbe2e0);
+}
 .App {
   text-align: center;
 }
@@ -35,4 +38,9 @@
   to {
     transform: rotate(360deg);
   }
+}
+.text {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
 }
