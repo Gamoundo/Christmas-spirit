@@ -6,11 +6,17 @@ import Kindness from './Kindness';
 import Happiness from './Happiness';
 import Generosity from './Generosity'
 
+
+const lightCandles=() => {
+
+}
 function App() {
+  
   return (
+
     <Router>
       <div className="App">
-      <h1> Christmas Spirit</h1>
+      <h1 className="header"> Christmas Spirit</h1>
       <Navbar />
       <p> The holiday season is supposed to be reminder that life isn't always bad.</p>
       <p> It never hurts to see more reminders of that.</p>

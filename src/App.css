@@ -1,8 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Outline&display=swap');
+
 body{
   background-image: linear-gradient(to top, #c64228, #cc6212, #cb8100, #c29f00, #b2bc00, #9fcc3a, #8ada60, #75e785, #72e9aa, #7fe8c6, #9ae6d8, #bbe2e0);
 }
 .App {
   text-align: center;
+  
 }
 
 .App-logo {
@@ -43,4 +46,9 @@ body{
   display: flex;
   align-items: flex-start;
   flex-direction: column;
+}
+
+.header {
+  font-family: 'Bungee Outline', cursive;
+  color: rgb(223, 20, 20);
 }
