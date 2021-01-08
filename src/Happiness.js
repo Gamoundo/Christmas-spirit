@@ -1,6 +1,6 @@
 import React from 'react'
 import ReactPlayer from 'react-player'
-
+import Comment from "./Comment"
 class Happiness extends React.Component {
 
     render(){
@@ -10,6 +10,7 @@ class Happiness extends React.Component {
              <p> You never know who or what will bring you joy.</p>
              <p> When you do find that which makes you happy, take care of it.</p>
             <ReactPlayer url="https://www.youtube.com/watch?v=URqvKYv2tIU" />
+            <Comment name={"happiness"}/>
             </div>
             
         )
